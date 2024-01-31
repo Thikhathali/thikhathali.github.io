@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.skills {
+  width: 60%;
+  height: 100%;
+  margin-top: 5%;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.skills-content {
+  display: flex;
+  flex-direction: row;
+}
+.skills-content .col-one,
+.skills-content .col-two {
+  width: 50%;
+  padding-bottom: 5%;
+}
+.skills-content .col-one-content,
+.skills-content .col-two-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-right: 10px;
+  height: 50vh;
+}
+.skills-content .col-one-content .item,
+.skills-content .col-two-content .item {
+  padding: 20px;
+  border: 1px dotted #000000;
+}
+.skills-content .col-one-content .item #hc-scale,
+.skills-content .col-two-content .item #hc-scale {
+  width: 90%;
+  height: 10%;
+  background-color: #2C3639;
+}
+.skills-content .col-one-content .item #js-scale,
+.skills-content .col-two-content .item #js-scale {
+  width: 70%;
+  height: 10%;
+  background-color: #2C3639;
+}
+.skills-content .col-one-content .item #csharp-scale,
+.skills-content .col-two-content .item #csharp-scale {
+  width: 80%;
+  height: 10%;
+  background-color: #2C3639;
+}
+.skills-content .col-one-content .item #java-scale,
+.skills-content .col-two-content .item #java-scale {
+  width: 80%;
+  height: 10%;
+  background-color: #2C3639;
+}
+.skills-content .col-one-content .item #python-scale,
+.skills-content .col-two-content .item #python-scale {
+  width: 60%;
+  height: 10%;
+  background-color: #2C3639;
+}
+.skills-content .col-one-content .item #salesforce-scale,
+.skills-content .col-two-content .item #salesforce-scale {
+  width: 60%;
+  height: 10%;
+  background-color: #2C3639;
+}
+.skills .skills-stat {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -20vh;
+}
+.skills h1 {
+  font-size: 4em;
+  padding-bottom: 5%;
+}
+.skills h3 {
+  font-size: 2em;
+  padding-bottom: 5%;
+}
+.skills h4 {
+  font-size: 1.5em;
+  padding-bottom: 10px;
+}/*# sourceMappingURL=skills.css.map */
