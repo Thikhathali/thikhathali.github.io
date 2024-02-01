@@ -23,11 +23,12 @@ async function getRepos (){
             const filteredData = [];
 
             for (let i = 0; i < dataByFE.length; i++) {
-                if(i === 1 || i === 2 || i === 8) {
+                if(i === 1 || i === 2 || i === 9 || i === 6 || i == 10) {
                     continue;
                 }
                 filteredData.push(dataByFE[i]);
             }
+            log(dataByFE);
             log(filteredData);
             mapCards(filteredData);
         }
